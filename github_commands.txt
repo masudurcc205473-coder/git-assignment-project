@@ -1,0 +1,26 @@
+1. Create the folder:
+   mkdir git-assignment-project
+
+2. Move into the folder:
+   cd git-assignment-project
+
+3. Initialize Git:
+   git init
+
+4. Check status:
+   git status
+
+5. Add files except config.env:
+   git add README.md script.js .gitignore
+
+6. Commit the files:
+   git commit -m "Initial commit with project structure and documentation"
+
+7. Rename branch to main:
+   git branch -M main
+
+8. Add GitHub remote:
+   git remote add origin https://github.com/yourusername/git-assignment-project.git
+
+9. Push to GitHub:
+   git push -u origin main
